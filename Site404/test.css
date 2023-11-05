@@ -1,0 +1,92 @@
+body{
+    background-color: gray;
+}
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 15%;
+}
+.git:hover{
+    transform: rotateY(360deg);
+
+  }
+  
+
+nav h1 {
+    position: absolute;
+    left: 40%;
+}
+nav a{
+    position: absolute;
+    right: 0;
+    
+}
+nav img{
+    width: 100px;
+    height: 100px; /* Ajustez la taille de votre image ronde */
+    border-radius: 50%; /* Rend l'image ronde */
+    transition: width 0.5s, rotate 3s;
+    border: #000 solid 2px;
+}
+.conteneur {
+    position:relative;
+    width: 400px; /* Ajustez la largeur selon vos besoins */
+  }
+li{
+    text-align: left   ;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+  }
+  .image-ronde {
+    width: 300px; /* Ajustez la taille de votre image ronde */
+    border-radius: 50%; /* Rend l'image ronde */
+    transition: transform 5s,width 1s;
+    border: #000 solid 2px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .cadre-texte {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    z-index: 1;
+    border-radius: 20px;
+    
+  }
+  .image-ronde:hover{
+    width: 350px;
+    transform: rotate(360deg);
+  }
+  .conteneur:hover {
+    width: 400px;
+  }
+  .conteneur:hover .cadre-texte {
+    display: block;
+    width: 300px;
+  }
+
+  .image-ronde1:hover{
+    width: 350px;
+    transform: rotateY(720deg);
+  }
+  .image-ronde1 {
+    width: 300px; /* Ajustez la taille de votre image ronde */
+    border-radius: 50%; /* Rend l'image ronde */
+    transition: transform 5s,width 1s;
+    border: #000 solid 2px;}
